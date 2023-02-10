@@ -1,7 +1,7 @@
 <!-- BEGIN: Side Menu -->
 <nav class="side-nav">
     <ul>
-        <li>
+        {{-- <li>
             <a href="javascript:;.html" class="side-menu side-menu--active">
                 <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
                 <div class="side-menu__title">
@@ -36,20 +36,26 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> --}}
         <li>
-            <a href="side-menu-light-inbox.html" class="side-menu">
-                <div class="side-menu__icon"> <i data-lucide="inbox"></i> </div>
-                <div class="side-menu__title"> Inbox </div>
+            <a href="{{ route('users.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="user"></i> </div>
+                <div class="side-menu__title"> Usuários </div>
             </a>
         </li>
-        <li class="side-nav__devider my-6"></li>
+        <li>
+            <a href="{{ route('users.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Setores </div>
+            </a>
+        </li>
+        {{-- <li class="side-nav__devider my-6"></li>
         <li>
             <a href="side-menu-light-inbox.html" class="side-menu">
                 <div class="side-menu__icon"> <i data-lucide="inbox"></i> </div>
                 <div class="side-menu__title"> Inbox 2</div>
             </a>
-        </li>
+        </li> --}}
     </ul>
 </nav>
 <!-- END: Side Menu -->
