@@ -44,9 +44,51 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('users.index') }}" class="side-menu">
+            <a href="{{ route('sectors.index') }}" class="side-menu">
                 <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
                 <div class="side-menu__title"> Setores </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('wallets.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Carteira de Clientes </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('customer.statuses.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Status do Cliente </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('customer.profiles.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Perfil do Cliente </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('customer-personals.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Clientes </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('lines.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Linha </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('categories.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Categorias </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('products.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Produtos </div>
             </a>
         </li>
         {{-- <li class="side-nav__devider my-6"></li>
