@@ -70,13 +70,19 @@
         <li>
             <a href="{{ route('customer-personals.index') }}" class="side-menu">
                 <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
-                <div class="side-menu__title"> Clientes </div>
+                <div class="side-menu__title"> Clientes PF </div>
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('customer-companies.index') }}" class="side-menu">
+                <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
+                <div class="side-menu__title"> Clientes PJ </div>
             </a>
         </li>
         <li>
             <a href="{{ route('lines.index') }}" class="side-menu">
                 <div class="side-menu__icon"> <i data-lucide="box"></i> </div>
-                <div class="side-menu__title"> Linha </div>
+                <div class="side-menu__title"> Linha  de produtos</div>
             </a>
         </li>
         <li>

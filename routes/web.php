@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CustomerCompanyController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SectorController;
 use App\Http\Controllers\UserController;
@@ -46,6 +47,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('customer-statuses', CustomerStatusController::class)->names('customer.statuses');
     Route::resource('customer-profiles', CustomerProfileController::class)->names('customer.profiles');
     Route::resource('customer-personals', CustomerPersonalController::class)->names('customer-personals');
+    Route::resource('customer-companies', CustomerCompanyController::class)->names('customer-companies');
     
     Route::get('customers/contacts/{customerId}/index', [CustomerContactController::class, 'index'])->name('customers.contacts.index');
     Route::get('customers/contacts/{customerId}/create', [CustomerContactController::class, 'create'])->name('customers.contacts.create');
